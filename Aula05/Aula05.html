@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Aula 05 - Treina Web	
+	</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1 style="text-align: center">
+		Aula 05 - Treina Web
+	</h1>
+	<h2 style="text-align: center">
+		Listas Ordenadas
+	</h2>
+
+
+<b>Aula 05.01</b>
+<br>
+	Lista Ordenada com Numeros, Letras Maiuscula, minuscula e numeros romanos maiusculo e minusculo.
+	<br>OL =  Order List 
+	<br>LI = List Item
+<br>
+	<ol type="1">
+	    <li>Item 1</li>
+	    <li>item 2</li>
+	    <li>Item 3</li>
+	    <li>item 4</li>
+	</ol>
+
+	<ol type="A">
+	    <li>Item 1</li>
+	    <li>item 2</li>
+	    <li>Item 3</li>
+	    <li>item 4</li>
+	</ol>
+
+	<ol type="a">
+	    <li>Item 1</li>
+	    <li>item 2</li>
+	    <li>Item 3</li>
+	    <li>item 4</li>
+	</ol>
+
+	<ol type="I">
+	    <li>Item 1</li>
+	    <li>item 2</li>
+	    <li>Item 3</li>
+	    <li>item 4</li>
+	</ol>
+
+	<ol type="i">
+	    <li>Item 1</li>
+	    <li>item 2</li>
+	    <li>Item 3</li>
+	    <li>item 4</li>
+	</ol>
+<hr>
+
+<b>Aula 05.02</b>
+<br>
+Parecida com a Lista anterior mas sem idenficação
+
+<ul>
+    <li>Html</li>
+    <li>CSS</li>
+    <li>JAVA</li>
+    <li>C#</li>
+</ul>
+<br>
+
+<hr />
+
+<b>Aula 05.03</b>
+<br> 	
+É um outro tipo de Lista, como se fosse uma lista identada
+
+<dl>
+	<dt>HTML</dt>
+	<dd>Marcador de texto, não considerada como Linguagem</dd>
+	<dt>CSS</dt>
+	<dd>Style de texto</dd>
+</dl>
+
+<hr />
+
+<b>Aula 05.04</b>
+	<br>
+	Barra de Progresso, onde define tamanho e a porcentagem.
+
+	Pode colocar o maximo e o minimo da barra também.
+	<br>
+
+<progress value="50" max="100" min="0"></progress>
+
+<br>
+	Ou usar o meter que é um formato direferente, depois olhar o oq o low e o high faz.
+	<br>
+	<meter value="20" min="0" low="" high="" max="100" optimum=""></meter>
+<br>
+
+<hr />
+
+	<b>Aula 05.05</b>
+		<br>
+		Tabelas
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="" rowspan="" headers="" scope="">
+					Nome
+				</th>
+				<th colspan="" rowspan="" headers="" scope="">
+					Sobre Nome
+				</th>
+				<th colspan="" rowspan="" headers="" scope="">
+					Telefone
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="" rowspan="" headers="">
+					Joao
+				</td>
+				<td colspan="" rowspan="" headers="">
+					Souza
+				</td>
+				<td colspan="" rowspan="" headers="">
+					(31)3333-3333
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+<hr />
+
+<p> Exemplo 2</p>
+<br>
+
+<table>
+	<thead>
+		<tr>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr> <!-- Quando Quero alterar o layout da tabela-->
+			<td rowspan="2">A</td>
+			<td colspan="2">B</td>
+			<!-- <td>C</td> Mesma coisa que o rowpan, neste caso eu estou falando que o B vai pegar 2 colunas B e C, dessa forma eu retiro a C-->
+		</tr>
+		<tr>
+			 <!--<td>D</td>  Para o rowspan funcionar eu coloco em qual linha ele vai ficar e remova a linha de baixo dele--> 
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
